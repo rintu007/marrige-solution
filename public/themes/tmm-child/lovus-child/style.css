@@ -1,0 +1,14 @@
+/*
+Theme Name:     Lovus Child
+Theme URI:      http://wpdemo.oceanthemes.net/lovus/
+Description:    Make your modifications to [Parent Theme] in this child theme.
+Author:         Oceanthemes
+Author URI:     http://oceanthemes.net/
+Version:        1.0
+Template:       lovus
+*/
+
+@import url("../lovus/style.css");
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */

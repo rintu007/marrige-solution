@@ -1,0 +1,42 @@
+
+.clear {
+    clear:both;
+    display:block;
+    overflow:hidden;
+    visibility:hidden;
+    line-height:0;
+    width:0;
+    height:0
+}
+
+
+.wrapper {
+    width:960px;
+    margin:0 auto
+}
+
+.jScroll {
+    width:920px;
+    z-index:1
+}
+
+.jScroll-item {
+    float:left;
+    width:197px;
+    height:260px;
+    position:relative;
+    padding:0 15px
+}
+
+.jScroll-item img {
+    width:197px;
+    margin:0 auto
+}
+
+.jScroll-item p {
+    text-align:justify;
+    font-family:Verdana,Arial,sans-serif;
+    font-size:12px;
+    color:#484848;
+    line-height:20px
+}

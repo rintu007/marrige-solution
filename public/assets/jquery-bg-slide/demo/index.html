@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Background Slideshow With Image Lazy Load DEMO</title>
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/jquery.slide.css" />
+    <style>
+    h1 { margin-top: 150px; text-align: center; }
+  </style>
+  </head>
+  <body>
+    <div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+<li><a href="https://www.jqueryscript.net/slideshow/Background-Slideshow-Lazy-Load-jQuery-Slide.html">Download This Plugin</a></li>
+<li><a href="https://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+</ul>
+ 
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+    <h1>Background Slideshow With Image Lazy Load Demo</h1>
+    <div class="slide">
+      <ul>
+        <li data-bg="https://picsum.photos/1200/450/?random"></li>
+        <li data-bg="https://picsum.photos/1200/460/?random"></li>
+        <li data-bg="https://picsum.photos/1200/480/?random"></li>
+        <li data-bg="https://picsum.photos/1200/490/?random"></li>
+        <li data-bg="https://picsum.photos/1300/490/?random"></li>
+      </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="../dist/jquery.slide.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $('.slide').slide({
+          'slideSpeed': 3000,
+          'isShowArrow': true,
+          'dotsEvent': 'mouseenter',
+          'isLoadAllImgs': true
+        });
+      });
+    </script>
+
+  </body>
+</html>
